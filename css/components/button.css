@@ -4,11 +4,26 @@
     color: white;
     padding: 10px 25px;
     border-radius: 2px;
-    transition: ease 0.8s;
 }
 
+.sparta-about-button {
+    background-color: #f8a5cf;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    opacity: 0.9;
+}
 
-.btn-red:hover {
-	opacity: 1;
-	box-shadow: 1px 2px rgba(30, 30, 30, 0.7)
+.sparta-join-button {
+    background-color: #cf23a3;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 8px;
+
+}
+
+.sparta-site-button:hover, .sparta-about-button:hover {
+    opacity: 1;
+    background-color: #cf23a3;
+	box-shadow: 2px 4px rgba(30, 30, 30, 0.8)
 }
