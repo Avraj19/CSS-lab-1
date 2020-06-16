@@ -1,0 +1,8 @@
+.avatar-square {
+    height: 300px;
+}
+
+.avatar-round {
+    border-radius: 50%;
+    height: 300px;
+}
