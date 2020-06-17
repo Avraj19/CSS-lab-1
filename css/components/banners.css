@@ -1,0 +1,6 @@
+@import url('background.jpg')
+.banner {
+    background-image: url('background.jpg');
+    height: 400vh;
+    background-size:cover;
+}

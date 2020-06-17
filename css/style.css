@@ -1,36 +1,24 @@
 /*@import url(https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap):
 
-.container {
-    width: 800px;
-    margin: 30px auto;
-}
 
-.text-center {
-    text-aline: center
-}
-
-h1 {
-    color: green;
-    font-family: 'EB Garamond', serif;
-}*/
 /*import fonts and external*/
 @import url('components/button.css');
 @import url('components/avatar.css');
-@import url('components/banner.css');
+@import url('image.jpg')
 @import url('sparta-homepage.jpg');
 
+/*https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-misctexture01-beer-000_5.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c1552a7bdc2ea7b6e17d8d0d893c15be*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap');
+.banner {
+    background-image: url('image.jpg');
+    height: 400vh;
+    background-size:cover;
+}
 
 .container {
-	width: 800px;
-}
-
-.text-center {
-	text-align: center;
-}
-
-.text-left {
-	text-align: left;
+    text-align: center;
+	width: auto;
+	margin-left: 35px auto;
 }
 
 body, p {
@@ -40,13 +28,13 @@ body, p {
 }
 
 h1, h2, h3 {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'EB Garamond', serif;
 	color: rgba(40, 40, 40, 1);
+	font-weight: bold;
 }
 
 h1 {
-    text-size: 40;
-	font-weight: bold;
+    font-size: 60;
 }
 
 h2, h3 {
@@ -55,7 +43,7 @@ h2, h3 {
 
 a {
 	text-decoration: none;
-	margin-left: 0px;
+    margin: 0px;
 }
 footer {
   text-align: center;
