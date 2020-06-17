@@ -1,6 +1,6 @@
-@import url('background.jpg')
+
 .banner {
-    background-image: url('background.jpg');
+    background-image: url('sparta-homepage.jpg');
     height: 400vh;
     background-size:cover;
 }
